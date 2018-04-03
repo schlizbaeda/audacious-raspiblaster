@@ -477,6 +477,8 @@ static void wait_for_entry (PlaylistData * playlist, int entry_num, bool need_de
 
 static void start_playback_locked (int seek_time, bool pause)
 {
+    lock_eject_pushbutton (); /* schlizbäda: LOCK eject pushbutton */
+
     art_clear_current ();
     scan_reset_playback ();
 
@@ -497,6 +499,8 @@ static void stop_playback_locked ()
     scan_reset_playback ();
 
     playback_stop ();
+
+    unlock_eject_pushbutton (); /* schlizbäda: UNLOCK eject pushbutton */
 }
 
 void pl_signal_entry_deleted (PlaylistEntry * entry)
@@ -963,7 +967,9 @@ EXPORT Playlist Playlist::new_playlist ()
 //static void set_playing_locked (Playlist::ID * id, bool paused)
 EXPORT void set_playing_locked (Playlist::ID * id, bool paused) /* schlizbäda: changed from static to EXPORTed function for eject.cc */
 {
-    if (id == playing_id)
+    int cond_startCDplayback {0}; /* schlizbäda: check if click on toolbar button "play" should start CD playback */
+
+    if (id == playing_id) /* schlizbäda: this condition needn't to be checked for determining if "play" was pressed on an empty playlist */
     {
         /* already playing, just need to pause/unpause */
         if (aud_drct_get_paused () != paused)
@@ -973,11 +979,17 @@ EXPORT void set_playing_locked (Playlist::ID * id, bool paused) /* schlizbäda: 
     }
 
     if (playing_id)
+    {
         playing_id->data->resume_time = aud_drct_get_time ();
+        cond_startCDplayback |= 1; /* schlizbäda: condition "2^0" */
+    }
 
     /* is there anything to play? */
     if (id && id->data->position () < 0 && ! id->data->next_song (true))
+    {
         id = nullptr;
+        cond_startCDplayback |= 2; /* schlizbäda: condition "2^1" */
+    }
 
     playing_id = id;
 
@@ -990,6 +1002,18 @@ EXPORT void set_playing_locked (Playlist::ID * id, bool paused) /* schlizbäda: 
     {
         stop_playback_locked ();
         queue_update_hooks (SetPlaying | PlaybackStop);
+        /* schlizbäda: check condition bits: 2^0=lo AND 2^1=hi (value==2): start CD playback */
+        if (2 == cond_startCDplayback)
+        {
+            printf ("schlizbäda: TODO: Try to start playback from CDDA (cond_startCDplayback==%d)\n", cond_startCDplayback);
+            //aud_drct_pl_add ("cdda://", -1); /* fill playlist with CD tracks (?) */
+            //aud_drct_pl_open ("cdda://");    /* start CD playback (?)            */
+
+            /* Where is the code for menu item "Services-->CD playback" located? 
+             * maybe somewhere in .../audacious_plugins_3.9/src/cd-menu-items/????????.cc
+             *                    --> AudMenuID::PlaylistAdd ==> cd_play() {aud_drct_pl_open("cdda://");}
+             */
+        }
     }
 }
 

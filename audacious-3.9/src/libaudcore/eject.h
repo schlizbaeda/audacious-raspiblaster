@@ -20,3 +20,4 @@
 #include "playlist-internal.h" /* necessary to use Playlist class*/
 
 void set_playing_locked (Playlist::ID * id, bool paused);
+int lock_eject_raspberrypi (bool lock);

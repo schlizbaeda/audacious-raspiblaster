@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/pi/audacious_src/audacious-plugins-3.9'
+ac_pwd='/home/pi/audacious_rpi/audacious-plugins-3.9'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -642,7 +642,7 @@ S["OUTPUT_PLUGINS"]=" alsa oss4 filewriter"
 S["INPUT_PLUGINS"]="adplug metronom psf tonegen vtx xsf cdaudio flac vorbis amidiplug mpg123 aac wavpack console ffaudio"
 S["GENERAL_PLUGINS"]=" alarm albumart lyricwiki playlist-manager search-tool statusicon gtkui skins delete-files skins-data cd-menu-items gnomeshortcuts mpris2 songchange"\
 " hotkey aosd"
-S["EFFECT_PLUGINS"]="compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa resample speedpitch"
+S["EFFECT_PLUGINS"]="compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa"
 S["TRANSPORT_PLUGIN_DIR"]="Transport"
 S["CONTAINER_PLUGIN_DIR"]="Container"
 S["VISUALIZATION_PLUGIN_DIR"]="Visualization"
@@ -692,7 +692,7 @@ S["ALSA_LIBS"]="-lasound"
 S["ALSA_CFLAGS"]="-I/usr/include/alsa"
 S["SOXR_LIBS"]=""
 S["SOXR_CFLAGS"]=""
-S["SAMPLERATE_LIBS"]="-lsamplerate"
+S["SAMPLERATE_LIBS"]=""
 S["SAMPLERATE_CFLAGS"]=""
 S["BS2B_LIBS"]=""
 S["BS2B_CFLAGS"]=""

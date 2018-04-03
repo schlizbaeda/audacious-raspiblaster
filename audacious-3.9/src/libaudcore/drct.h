@@ -107,4 +107,7 @@ void aud_drct_pl_open_list (Index<PlaylistAddItem> && items);
 void aud_drct_pl_open_temp (const char * filename);
 void aud_drct_pl_open_temp_list (Index<PlaylistAddItem> && items);
 
+/* --- schlizbäda: LOCK/UNLOCK eject pushbutton --- */
+int lock_eject_pushbutton ();
+int unlock_eject_pushbutton ();
 #endif

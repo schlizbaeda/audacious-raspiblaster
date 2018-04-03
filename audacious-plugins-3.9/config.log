@@ -429,8 +429,8 @@ configure:6376: checking for windres
 configure:6409: result: no
 configure:6429: checking for library containing pthread_create
 configure:6460: gcc -o conftest -g -O2 -std=gnu99 -ffast-math -Wall -pipe -Wtype-limits -fvisibility=hidden   -Wl,-z,defs conftest.c  >&5
-/tmp/ccRqKwxr.o: In function `main':
-/home/pi/audacious_src/audacious-plugins-3.9/conftest.c:34: undefined reference to `pthread_create'
+/tmp/cceD0gzb.o: In function `main':
+/home/pi/audacious_rpi/audacious-plugins-3.9/conftest.c:34: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:6460: $? = 1
 configure: failed program was:
@@ -755,14 +755,36 @@ No package 'libbs2b' found
 configure:11066: WARNING: BS2B effect disabled due to missing dependency: libbs2b >= 3.0.0
 configure:11108: checking for samplerate
 configure:11115: $PKG_CONFIG --exists --print-errors "samplerate"
-configure:11118: $? = 0
+Package samplerate was not found in the pkg-config search path.
+Perhaps you should add the directory containing `samplerate.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'samplerate' found
+configure:11118: $? = 1
 configure:11132: $PKG_CONFIG --exists --print-errors "samplerate"
-configure:11135: $? = 0
-configure:11187: result: yes
+Package samplerate was not found in the pkg-config search path.
+Perhaps you should add the directory containing `samplerate.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'samplerate' found
+configure:11135: $? = 1
+configure:11149: result: no
+No package 'samplerate' found
+configure:11169: WARNING: sample rate converter disabled due to missing dependency: samplerate
 configure:11211: checking for samplerate
 configure:11218: $PKG_CONFIG --exists --print-errors "samplerate"
-configure:11221: $? = 0
-configure:11290: result: yes
+Package samplerate was not found in the pkg-config search path.
+Perhaps you should add the directory containing `samplerate.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'samplerate' found
+configure:11221: $? = 1
+configure:11235: $PKG_CONFIG --exists --print-errors "samplerate"
+Package samplerate was not found in the pkg-config search path.
+Perhaps you should add the directory containing `samplerate.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'samplerate' found
+configure:11238: $? = 1
+configure:11252: result: no
+No package 'samplerate' found
+configure:11272: WARNING: speed/pitch effect disabled due to missing dependency: samplerate
 configure:11314: checking for soxr
 configure:11321: $PKG_CONFIG --exists --print-errors "soxr"
 Package soxr was not found in the pkg-config search path.
@@ -1584,8 +1606,6 @@ pkg_cv_MPG123_CFLAGS=
 pkg_cv_MPG123_LIBS=-lmpg123
 pkg_cv_NEON_CFLAGS='-D_LARGEFILE64_SOURCE -DNE_LFS -I/usr/include/neon'
 pkg_cv_NEON_LIBS=-lneon
-pkg_cv_SAMPLERATE_CFLAGS=
-pkg_cv_SAMPLERATE_LIBS=-lsamplerate
 pkg_cv_VORBIS_CFLAGS=
 pkg_cv_VORBIS_LIBS='-logg -lvorbis -lvorbisenc -lvorbisfile'
 pkg_cv_WAVPACK_CFLAGS=
@@ -1633,7 +1653,7 @@ DEFS='-DHAVE_CONFIG_H'
 ECHO_C=''
 ECHO_N='-n'
 ECHO_T=''
-EFFECT_PLUGINS='compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa resample speedpitch'
+EFFECT_PLUGINS='compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa'
 EFFECT_PLUGIN_DIR='Effect'
 EGREP='/bin/grep -E'
 EXEEXT=''
@@ -1743,7 +1763,7 @@ QT_LIBS=''
 RANLIB='/usr/bin/ranlib'
 RM='/bin/rm'
 SAMPLERATE_CFLAGS=''
-SAMPLERATE_LIBS='-lsamplerate'
+SAMPLERATE_LIBS=''
 SDL_CFLAGS=''
 SDL_LIBS=''
 SED='/bin/sed'

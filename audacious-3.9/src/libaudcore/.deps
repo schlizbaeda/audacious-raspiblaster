@@ -889,7 +889,8 @@ eject.o eject.lib.o eject.plugin.o: eject.cc /usr/include/stdc-predef.h ../../co
  /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h eject.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/c++/6/cstring /usr/include/string.h eject.h \
  playlist-internal.h playlist.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \

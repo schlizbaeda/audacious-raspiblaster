@@ -3,7 +3,7 @@ plugindir = /usr/local/lib/audacious
 
 CONTAINER_PLUGIN_DIR ?= Container
 CONTAINER_PLUGINS ?= asx asx3 audpl m3u pls xspf
-EFFECT_PLUGINS ?= compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa resample speedpitch
+EFFECT_PLUGINS ?= compressor crossfade crystalizer mixer silence-removal stereo_plugin voice_removal echo_plugin ladspa
 EFFECT_PLUGIN_DIR ?= Effect
 GENERAL_PLUGINS ?=  alarm albumart lyricwiki playlist-manager search-tool statusicon gtkui skins delete-files skins-data cd-menu-items gnomeshortcuts mpris2 songchange hotkey aosd
 GENERAL_PLUGIN_DIR ?= General
@@ -66,7 +66,7 @@ NOTIFY_CFLAGS ?=
 NOTIFY_LIBS ?= 
 OSS_CFLAGS ?= 
 SAMPLERATE_CFLAGS ?= 
-SAMPLERATE_LIBS ?= -lsamplerate
+SAMPLERATE_LIBS ?= 
 SDL_CFLAGS ?= 
 SDL_LIBS ?= 
 SIDPLAYFP_CFLAGS ?= 
