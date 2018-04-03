@@ -1,0 +1,2703 @@
+Ay_Apu.o Ay_Apu.lib.o Ay_Apu.plugin.o: Ay_Apu.cc /usr/include/stdc-predef.h ../../config.h Ay_Apu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h blargg_source.h
+Ay_Cpu.o Ay_Cpu.lib.o Ay_Cpu.plugin.o: Ay_Cpu.cc /usr/include/stdc-predef.h ../../config.h Ay_Cpu.h \
+ blargg_endian.h /usr/local/include/libaudcore/audio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h blargg_source.h
+Ay_Emu.o Ay_Emu.lib.o Ay_Emu.plugin.o: Ay_Emu.cc /usr/include/stdc-predef.h ../../config.h Ay_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Ay_Apu.h Ay_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Blip_Buffer.o Blip_Buffer.lib.o Blip_Buffer.plugin.o: Blip_Buffer.cc /usr/include/stdc-predef.h ../../config.h \
+ Blip_Buffer.h /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/assert.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/c++/6/stdlib.h \
+ /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/c++/6/math.h /usr/include/c++/6/cmath \
+ /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h
+Classic_Emu.o Classic_Emu.lib.o Classic_Emu.plugin.o: Classic_Emu.cc /usr/include/stdc-predef.h ../../config.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Multi_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Data_Reader.o Data_Reader.lib.o Data_Reader.plugin.o: Data_Reader.cc /usr/include/stdc-predef.h ../../config.h \
+ Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h blargg_source.h
+Dual_Resampler.o Dual_Resampler.lib.o Dual_Resampler.plugin.o: Dual_Resampler.cc /usr/include/stdc-predef.h \
+ ../../config.h Dual_Resampler.h Fir_Resampler.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h Blip_Buffer.h \
+ blargg_source.h
+Effects_Buffer.o Effects_Buffer.lib.o Effects_Buffer.plugin.o: Effects_Buffer.cc /usr/include/stdc-predef.h \
+ ../../config.h Effects_Buffer.h Multi_Buffer.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Fir_Resampler.o Fir_Resampler.lib.o Fir_Resampler.plugin.o: Fir_Resampler.cc /usr/include/stdc-predef.h \
+ ../../config.h Fir_Resampler.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/c++/6/math.h \
+ /usr/include/c++/6/cmath /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h blargg_source.h
+Gbs_Emu.o Gbs_Emu.lib.o Gbs_Emu.plugin.o: Gbs_Emu.cc /usr/include/stdc-predef.h ../../config.h Gbs_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Gb_Apu.h Gb_Oscs.h Gb_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Gb_Apu.o Gb_Apu.lib.o Gb_Apu.plugin.o: Gb_Apu.cc /usr/include/stdc-predef.h ../../config.h Gb_Apu.h \
+ Gb_Oscs.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Gb_Cpu.o Gb_Cpu.lib.o Gb_Cpu.plugin.o: Gb_Cpu.cc /usr/include/stdc-predef.h ../../config.h Gb_Cpu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h gb_cpu_io.h \
+ Gbs_Emu.h Classic_Emu.h Blip_Buffer.h Music_Emu.h Gme_File.h gme.h \
+ Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Gb_Apu.h Gb_Oscs.h blargg_source.h
+Gb_Oscs.o Gb_Oscs.lib.o Gb_Oscs.plugin.o: Gb_Oscs.cc /usr/include/stdc-predef.h ../../config.h Gb_Apu.h \
+ Gb_Oscs.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+gme.o gme.lib.o gme.plugin.o: gme.cc /usr/include/stdc-predef.h ../../config.h Music_Emu.h \
+ Gme_File.h gme.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Data_Reader.h /usr/include/zlib.h \
+ /usr/include/zconf.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h gme_types.h Effects_Buffer.h Multi_Buffer.h \
+ Blip_Buffer.h blargg_endian.h /usr/local/include/libaudcore/audio.h \
+ /usr/include/string.h /usr/include/ctype.h blargg_source.h
+Gme_File.o Gme_File.lib.o Gme_File.plugin.o: Gme_File.cc /usr/include/stdc-predef.h ../../config.h \
+ Gme_File.h gme.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Data_Reader.h /usr/include/zlib.h \
+ /usr/include/zconf.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Gym_Emu.o Gym_Emu.lib.o Gym_Emu.plugin.o: Gym_Emu.cc /usr/include/stdc-predef.h ../../config.h Gym_Emu.h \
+ Dual_Resampler.h Fir_Resampler.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h Blip_Buffer.h \
+ Ym2612_Emu.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Sms_Apu.h Sms_Oscs.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h blargg_source.h
+Gzip_Reader.o Gzip_Reader.lib.o Gzip_Reader.plugin.o: Gzip_Reader.cc /usr/include/stdc-predef.h ../../config.h \
+ Gzip_Reader.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Zlib_Inflater.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h blargg_source.h
+Hes_Apu.o Hes_Apu.lib.o Hes_Apu.plugin.o: Hes_Apu.cc /usr/include/stdc-predef.h ../../config.h Hes_Apu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Hes_Cpu.o Hes_Cpu.lib.o Hes_Cpu.plugin.o: Hes_Cpu.cc /usr/include/stdc-predef.h ../../config.h Hes_Cpu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h hes_cpu_io.h Hes_Emu.h \
+ Classic_Emu.h Blip_Buffer.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Hes_Apu.h blargg_source.h
+Hes_Emu.o Hes_Emu.lib.o Hes_Emu.plugin.o: Hes_Emu.cc /usr/include/stdc-predef.h ../../config.h Hes_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Hes_Apu.h Hes_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Kss_Cpu.o Kss_Cpu.lib.o Kss_Cpu.plugin.o: Kss_Cpu.cc /usr/include/stdc-predef.h ../../config.h Kss_Cpu.h \
+ blargg_endian.h /usr/local/include/libaudcore/audio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h blargg_source.h
+Kss_Emu.o Kss_Emu.lib.o Kss_Emu.plugin.o: Kss_Emu.cc /usr/include/stdc-predef.h ../../config.h Kss_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Kss_Scc_Apu.h /usr/include/string.h Kss_Cpu.h \
+ blargg_endian.h /usr/local/include/libaudcore/audio.h Sms_Apu.h \
+ Sms_Oscs.h Ay_Apu.h blargg_source.h
+Kss_Scc_Apu.o Kss_Scc_Apu.lib.o Kss_Scc_Apu.plugin.o: Kss_Scc_Apu.cc /usr/include/stdc-predef.h ../../config.h \
+ Kss_Scc_Apu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+M3u_Playlist.o M3u_Playlist.lib.o M3u_Playlist.plugin.o: M3u_Playlist.cc /usr/include/stdc-predef.h ../../config.h \
+ M3u_Playlist.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Data_Reader.h /usr/include/zlib.h \
+ /usr/include/zconf.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ Music_Emu.h Gme_File.h gme.h Vfs_File.h /usr/include/string.h \
+ blargg_source.h
+Multi_Buffer.o Multi_Buffer.lib.o Multi_Buffer.plugin.o: Multi_Buffer.cc /usr/include/stdc-predef.h ../../config.h \
+ Multi_Buffer.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h blargg_source.h
+Music_Emu.o Music_Emu.lib.o Music_Emu.plugin.o: Music_Emu.cc /usr/include/stdc-predef.h ../../config.h \
+ Music_Emu.h Gme_File.h gme.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Data_Reader.h /usr/include/zlib.h \
+ /usr/include/zconf.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Multi_Buffer.h Blip_Buffer.h \
+ /usr/include/string.h blargg_source.h
+Nes_Apu.o Nes_Apu.lib.o Nes_Apu.plugin.o: Nes_Apu.cc /usr/include/stdc-predef.h ../../config.h Nes_Apu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Nes_Oscs.h Blip_Buffer.h blargg_source.h
+Nes_Cpu.o Nes_Cpu.lib.o Nes_Cpu.plugin.o: Nes_Cpu.cc /usr/include/stdc-predef.h ../../config.h Nes_Cpu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h nes_cpu_io.h Nsf_Emu.h \
+ Classic_Emu.h Blip_Buffer.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Nes_Apu.h Nes_Oscs.h Nes_Namco_Apu.h \
+ blargg_source.h
+Nes_Fme7_Apu.o Nes_Fme7_Apu.lib.o Nes_Fme7_Apu.plugin.o: Nes_Fme7_Apu.cc /usr/include/stdc-predef.h ../../config.h \
+ Nes_Fme7_Apu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Nes_Namco_Apu.o Nes_Namco_Apu.lib.o Nes_Namco_Apu.plugin.o: Nes_Namco_Apu.cc /usr/include/stdc-predef.h \
+ ../../config.h Nes_Namco_Apu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h blargg_source.h
+Nes_Oscs.o Nes_Oscs.lib.o Nes_Oscs.plugin.o: Nes_Oscs.cc /usr/include/stdc-predef.h ../../config.h \
+ Nes_Apu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Nes_Oscs.h Blip_Buffer.h blargg_source.h
+Nes_Vrc6_Apu.o Nes_Vrc6_Apu.lib.o Nes_Vrc6_Apu.plugin.o: Nes_Vrc6_Apu.cc /usr/include/stdc-predef.h ../../config.h \
+ Nes_Vrc6_Apu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h blargg_source.h
+Nsfe_Emu.o Nsfe_Emu.lib.o Nsfe_Emu.plugin.o: Nsfe_Emu.cc /usr/include/stdc-predef.h ../../config.h \
+ Nsfe_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Nsf_Emu.h Classic_Emu.h Blip_Buffer.h \
+ Music_Emu.h Gme_File.h gme.h Data_Reader.h /usr/include/zlib.h \
+ /usr/include/zconf.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Nes_Apu.h Nes_Oscs.h Nes_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ /usr/include/ctype.h blargg_source.h
+Nsf_Emu.o Nsf_Emu.lib.o Nsf_Emu.plugin.o: Nsf_Emu.cc /usr/include/stdc-predef.h ../../config.h Nsf_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Nes_Apu.h Nes_Oscs.h Nes_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h Nes_Namco_Apu.h \
+ Nes_Vrc6_Apu.h Nes_Fme7_Apu.h blargg_source.h
+Sap_Apu.o Sap_Apu.lib.o Sap_Apu.plugin.o: Sap_Apu.cc /usr/include/stdc-predef.h ../../config.h Sap_Apu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h /usr/include/string.h \
+ blargg_source.h
+Sap_Cpu.o Sap_Cpu.lib.o Sap_Cpu.plugin.o: Sap_Cpu.cc /usr/include/stdc-predef.h ../../config.h Sap_Cpu.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h sap_cpu_io.h Sap_Emu.h \
+ Classic_Emu.h Blip_Buffer.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Sap_Apu.h blargg_source.h
+Sap_Emu.o Sap_Emu.lib.o Sap_Emu.plugin.o: Sap_Emu.cc /usr/include/stdc-predef.h ../../config.h Sap_Emu.h \
+ Classic_Emu.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h Music_Emu.h Gme_File.h \
+ gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Sap_Apu.h Sap_Cpu.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Sms_Apu.o Sms_Apu.lib.o Sms_Apu.plugin.o: Sms_Apu.cc /usr/include/stdc-predef.h ../../config.h Sms_Apu.h \
+ Sms_Oscs.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits Blip_Buffer.h blargg_source.h
+Snes_Spc.o Snes_Spc.lib.o Snes_Spc.plugin.o: Snes_Spc.cc /usr/include/stdc-predef.h ../../config.h \
+ Snes_Spc.h Spc_Dsp.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Spc_Cpu.o Spc_Cpu.lib.o Spc_Cpu.plugin.o: Spc_Cpu.cc /usr/include/stdc-predef.h ../../config.h \
+ Snes_Spc.h Spc_Dsp.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h Spc_Cpu.h
+Spc_Dsp.o Spc_Dsp.lib.o Spc_Dsp.plugin.o: Spc_Dsp.cc /usr/include/stdc-predef.h ../../config.h Spc_Dsp.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h /usr/include/string.h \
+ blargg_source.h
+Spc_Emu.o Spc_Emu.lib.o Spc_Emu.plugin.o: Spc_Emu.cc /usr/include/stdc-predef.h ../../config.h Spc_Emu.h \
+ Fir_Resampler.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h Music_Emu.h \
+ Gme_File.h gme.h Data_Reader.h /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Snes_Spc.h Spc_Dsp.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h Spc_Filter.h blargg_source.h
+Spc_Filter.o Spc_Filter.lib.o Spc_Filter.plugin.o: Spc_Filter.cc /usr/include/stdc-predef.h ../../config.h \
+ Spc_Filter.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h blargg_source.h
+Vfs_File.o Vfs_File.lib.o Vfs_File.plugin.o: Vfs_File.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h Vfs_File.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/local/include/libaudcore/vfs.h \
+ /usr/local/include/libaudcore/export.h \
+ /usr/local/include/libaudcore/index.h \
+ /usr/local/include/libaudcore/templates.h /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list \
+ /usr/local/include/libaudcore/objects.h
+Vgm_Emu.o Vgm_Emu.lib.o Vgm_Emu.plugin.o: Vgm_Emu.cc /usr/include/stdc-predef.h ../../config.h Vgm_Emu.h \
+ Vgm_Emu_Impl.h Dual_Resampler.h Fir_Resampler.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h Blip_Buffer.h \
+ Classic_Emu.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Ym2413_Emu.h Ym2612_Emu.h Sms_Apu.h Sms_Oscs.h \
+ blargg_endian.h /usr/local/include/libaudcore/audio.h \
+ /usr/include/c++/6/math.h /usr/include/c++/6/cmath \
+ /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h blargg_source.h
+Vgm_Emu_Impl.o Vgm_Emu_Impl.lib.o Vgm_Emu_Impl.plugin.o: Vgm_Emu_Impl.cc /usr/include/stdc-predef.h ../../config.h \
+ Vgm_Emu.h Vgm_Emu_Impl.h Dual_Resampler.h Fir_Resampler.h \
+ blargg_common.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/string.h Blip_Buffer.h \
+ Classic_Emu.h Music_Emu.h Gme_File.h gme.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Ym2413_Emu.h Ym2612_Emu.h Sms_Apu.h Sms_Oscs.h \
+ /usr/include/c++/6/math.h /usr/include/c++/6/cmath \
+ /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h blargg_endian.h \
+ /usr/local/include/libaudcore/audio.h blargg_source.h
+Ym2413_Emu.o Ym2413_Emu.lib.o Ym2413_Emu.plugin.o: Ym2413_Emu.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/time.h /usr/include/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/c++/6/math.h /usr/include/c++/6/cmath \
+ /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h Ym2413_Emu.h \
+ /usr/include/assert.h
+Ym2612_Emu.o Ym2612_Emu.lib.o Ym2612_Emu.plugin.o: Ym2612_Emu.cc /usr/include/stdc-predef.h ../../config.h \
+ Ym2612_Emu.h /usr/include/assert.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/c++/6/math.h \
+ /usr/include/c++/6/cmath /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h
+Zlib_Inflater.o Zlib_Inflater.lib.o Zlib_Inflater.plugin.o: Zlib_Inflater.cc /usr/include/stdc-predef.h \
+ ../../config.h Zlib_Inflater.h blargg_common.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/unistd.h /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ /usr/include/string.h blargg_source.h
+Audacious_Driver.o Audacious_Driver.lib.o Audacious_Driver.plugin.o: Audacious_Driver.cc /usr/include/stdc-predef.h \
+ ../../config.h /usr/include/c++/6/math.h /usr/include/c++/6/cmath \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/bits/cpp_type_traits.h \
+ /usr/include/c++/6/ext/type_traits.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-finite.h /usr/include/stdio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/local/include/libaudcore/audstrings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/initializer_list \
+ /usr/local/include/libaudcore/index.h \
+ /usr/local/include/libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/local/include/libaudcore/objects.h \
+ /usr/local/include/libaudcore/runtime.h configure.h plugin.h \
+ /usr/local/include/libaudcore/i18n.h /usr/include/libintl.h \
+ /usr/local/include/libaudcore/plugin.h \
+ /usr/local/include/libaudcore/audio.h \
+ /usr/local/include/libaudcore/export.h \
+ /usr/local/include/libaudcore/plugins.h \
+ /usr/local/include/libaudcore/tuple.h \
+ /usr/local/include/libaudcore/visualizer.h \
+ /usr/local/include/libaudcore/vfs.h \
+ /usr/local/include/libaudcore/preferences.h Music_Emu.h Gme_File.h gme.h \
+ blargg_common.h /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h Data_Reader.h \
+ /usr/include/zlib.h /usr/include/zconf.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ M3u_Playlist.h Vfs_File.h Gzip_Reader.h Zlib_Inflater.h
+configure.o configure.lib.o configure.plugin.o: configure.cc /usr/include/stdc-predef.h ../../config.h \
+ configure.h plugin.h /usr/local/include/libaudcore/i18n.h \
+ /usr/include/libintl.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/local/include/libaudcore/plugin.h \
+ /usr/local/include/libaudcore/audio.h \
+ /usr/local/include/libaudcore/export.h \
+ /usr/local/include/libaudcore/plugins.h \
+ /usr/local/include/libaudcore/index.h \
+ /usr/local/include/libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list \
+ /usr/local/include/libaudcore/tuple.h \
+ /usr/local/include/libaudcore/objects.h \
+ /usr/local/include/libaudcore/visualizer.h \
+ /usr/local/include/libaudcore/vfs.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/local/include/libaudcore/preferences.h \
+ /usr/local/include/libaudcore/runtime.h
+plugin.o plugin.lib.o plugin.plugin.o: plugin.cc /usr/include/stdc-predef.h ../../config.h configure.h \
+ plugin.h /usr/local/include/libaudcore/i18n.h /usr/include/libintl.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/local/include/libaudcore/plugin.h \
+ /usr/local/include/libaudcore/audio.h \
+ /usr/local/include/libaudcore/export.h \
+ /usr/local/include/libaudcore/plugins.h \
+ /usr/local/include/libaudcore/index.h \
+ /usr/local/include/libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list \
+ /usr/local/include/libaudcore/tuple.h \
+ /usr/local/include/libaudcore/objects.h \
+ /usr/local/include/libaudcore/visualizer.h \
+ /usr/local/include/libaudcore/vfs.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/local/include/libaudcore/preferences.h

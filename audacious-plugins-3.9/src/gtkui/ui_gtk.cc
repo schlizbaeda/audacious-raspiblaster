@@ -803,10 +803,22 @@ bool GtkUI::init ()
     gtk_toolbar_insert ((GtkToolbar *) toolbar, gtk_separator_tool_item_new (), -1);
 
     /* playback buttons */
+#define SCHLIZBAEDAS_ORDER
+#ifdef SCHLIZBAEDAS_ORDER
+    /* schlizbäda's preferred order of playback buttons */
+    button_play = toolbar_button_add (toolbar, aud_drct_play_pause, "media-playback-start");
+    toolbar_button_add (toolbar, aud_drct_pl_prev, "media-skip-backward");
+    toolbar_button_add (toolbar, aud_drct_pl_next, "media-skip-forward");
+    button_stop = toolbar_button_add (toolbar, aud_drct_stop, "media-playback-stop");
+    toolbar_button_add (toolbar, aud_drct_eject, "media-eject"); /* schlizbäda: added "eject" button */
+#else
+    /* original order */
     toolbar_button_add (toolbar, aud_drct_pl_prev, "media-skip-backward");
     button_play = toolbar_button_add (toolbar, aud_drct_play_pause, "media-playback-start");
     button_stop = toolbar_button_add (toolbar, aud_drct_stop, "media-playback-stop");
     toolbar_button_add (toolbar, aud_drct_pl_next, "media-skip-forward");
+    toolbar_button_add (toolbar, aud_drct_eject, "media-eject"); /* schlizbäda: added "eject" button */
+#endif
 
     button_record = toggle_button_new ("media-record", toggle_record);
     gtk_widget_set_no_show_all ((GtkWidget *) button_record, true);

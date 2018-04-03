@@ -88,12 +88,13 @@ static const AudguiMenuItem file_items[] = {
     MenuCommand (N_("_Quit"), "application-exit", 'q', CTRL, aud_quit)
 };
 
-static const AudguiMenuItem playback_items[] = {
+static const AudguiMenuItem playback_items[] = { /* schlizbäda: added "eject" menu item */
     MenuCommand (N_("_Play"), "media-playback-start", GDK_KEY_Return, CTRL, aud_drct_play),
     MenuCommand (N_("Paus_e"), "media-playback-pause", ',', CTRL, aud_drct_pause),
     MenuCommand (N_("_Stop"), "media-playback-stop", '.', CTRL, aud_drct_stop),
     MenuCommand (N_("Pre_vious"), "media-skip-backward", GDK_KEY_Up, ALT, aud_drct_pl_prev),
     MenuCommand (N_("_Next"), "media-skip-forward", GDK_KEY_Down, ALT, aud_drct_pl_next),
+	MenuCommand (N_("Eject"), "media-eject", NONE, aud_drct_eject),
     MenuSep (),
     MenuToggle (N_("_Repeat"), nullptr, 'r', CTRL, nullptr, "repeat", nullptr, "set repeat"),
     MenuToggle (N_("S_huffle"), nullptr, 's', CTRL, nullptr, "shuffle", nullptr, "set shuffle"),

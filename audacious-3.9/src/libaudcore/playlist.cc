@@ -960,7 +960,8 @@ EXPORT Playlist Playlist::new_playlist ()
     RETURN (Playlist (id));
 }
 
-static void set_playing_locked (Playlist::ID * id, bool paused)
+//static void set_playing_locked (Playlist::ID * id, bool paused)
+EXPORT void set_playing_locked (Playlist::ID * id, bool paused) /* schlizbäda: changed from static to EXPORTed function for eject.cc */
 {
     if (id == playing_id)
     {

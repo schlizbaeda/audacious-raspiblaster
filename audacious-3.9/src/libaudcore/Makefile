@@ -12,6 +12,7 @@ SRCS = adder.cc \
        cue-cache.cc \
        drct.cc \
        effect.cc \
+       eject.cc \
        equalizer.cc \
        equalizer-preset.cc \
        eventqueue.cc \

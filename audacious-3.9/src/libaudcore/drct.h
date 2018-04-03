@@ -34,6 +34,7 @@ void aud_drct_play ();
 void aud_drct_play_pause ();
 void aud_drct_pause ();
 void aud_drct_stop ();
+void aud_drct_eject (); /* schlizbäda: click event handler of eject button */
 bool aud_drct_get_playing ();
 bool aud_drct_get_ready ();
 bool aud_drct_get_paused ();

@@ -1,0 +1,454 @@
+audtag.o audtag.lib.o audtag.plugin.o: audtag.cc /usr/include/stdc-predef.h ../../config.h \
+ ../libaudcore/runtime.h ../libaudcore/objects.h \
+ ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list audtag.h ../libaudcore/tuple.h \
+ ../libaudcore/vfs.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/export.h ../libaudcore/index.h tag_module.h
+util.o util.lib.o util.plugin.o: util.cc /usr/include/stdc-predef.h ../../config.h util.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h
+tag_module.o tag_module.lib.o tag_module.plugin.o: tag_module.cc /usr/include/stdc-predef.h ../../config.h \
+ ../libaudcore/index.h ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list ../libaudcore/runtime.h \
+ ../libaudcore/objects.h ../libaudcore/tuple.h ../libaudcore/vfs.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/export.h audtag.h util.h tag_module.h builtin.h
+id3-common.o id3-common.lib.o id3-common.plugin.o: id3/id3-common.cc /usr/include/stdc-predef.h ../../config.h \
+ id3/id3-common.h ../libaudcore/index.h ../libaudcore/templates.h \
+ /usr/include/c++/6/new \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ /usr/include/c++/6/initializer_list ../libaudcore/tuple.h \
+ ../libaudcore/objects.h /usr/include/c++/6/stdlib.h \
+ /usr/include/c++/6/cstdlib /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h ../libaudcore/audstrings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/runtime.h id3/../util.h
+id3v1.o id3v1.lib.o id3v1.plugin.o: id3/id3v1.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
+ /usr/lib/arm-linux-gnueabihf/glib-2.0/include/glibconfig.h \
+ /usr/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/float.h \
+ /usr/include/glib-2.0/glib/gversionmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/glib-2.0/glib/garray.h \
+ /usr/include/glib-2.0/glib/gasyncqueue.h \
+ /usr/include/glib-2.0/glib/gthread.h \
+ /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h \
+ /usr/include/glib-2.0/glib/gbase64.h \
+ /usr/include/glib-2.0/glib/gbitlock.h \
+ /usr/include/glib-2.0/glib/gbookmarkfile.h \
+ /usr/include/glib-2.0/glib/gbytes.h \
+ /usr/include/glib-2.0/glib/gcharset.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/gconvert.h \
+ /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h \
+ /usr/include/glib-2.0/glib/gdatetime.h \
+ /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h \
+ /usr/include/dirent.h /usr/include/arm-linux-gnueabihf/bits/dirent.h \
+ /usr/include/glib-2.0/glib/genviron.h \
+ /usr/include/glib-2.0/glib/gfileutils.h \
+ /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
+ /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h \
+ /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/ghook.h \
+ /usr/include/glib-2.0/glib/ghostutils.h \
+ /usr/include/glib-2.0/glib/giochannel.h \
+ /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
+ /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
+ /usr/include/glib-2.0/glib/gunicode.h \
+ /usr/include/glib-2.0/glib/gkeyfile.h \
+ /usr/include/glib-2.0/glib/gmappedfile.h \
+ /usr/include/glib-2.0/glib/gmarkup.h \
+ /usr/include/glib-2.0/glib/gmessages.h \
+ /usr/include/glib-2.0/glib/gvariant.h \
+ /usr/include/glib-2.0/glib/gvarianttype.h \
+ /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gpattern.h \
+ /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
+ /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
+ /usr/include/glib-2.0/glib/gregex.h \
+ /usr/include/glib-2.0/glib/gscanner.h \
+ /usr/include/glib-2.0/glib/gsequence.h \
+ /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
+ /usr/include/glib-2.0/glib/gspawn.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
+ /usr/include/glib-2.0/glib/gstringchunk.h \
+ /usr/include/glib-2.0/glib/gtestutils.h \
+ /usr/include/glib-2.0/glib/gthreadpool.h \
+ /usr/include/glib-2.0/glib/gtimer.h \
+ /usr/include/glib-2.0/glib/gtrashstack.h \
+ /usr/include/glib-2.0/glib/gtree.h \
+ /usr/include/glib-2.0/glib/gurifuncs.h \
+ /usr/include/glib-2.0/glib/gversion.h \
+ /usr/include/glib-2.0/glib/deprecated/gallocator.h \
+ /usr/include/glib-2.0/glib/deprecated/gcache.h \
+ /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
+ /usr/include/glib-2.0/glib/deprecated/gmain.h \
+ /usr/include/glib-2.0/glib/deprecated/grel.h \
+ /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
+ /usr/include/glib-2.0/glib/glib-autocleanups.h \
+ ../libaudcore/audstrings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/6/initializer_list ../libaudcore/index.h \
+ ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ ../libaudcore/objects.h ../libaudtag/builtin.h ../libaudtag/tag_module.h \
+ ../libaudtag/audtag.h ../libaudcore/tuple.h ../libaudcore/vfs.h \
+ ../libaudcore/export.h ../libaudtag/util.h
+id3v22.o id3v22.lib.o id3v22.plugin.o: id3/id3v22.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h ../libaudcore/audio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/audstrings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/c++/6/initializer_list ../libaudcore/index.h \
+ ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ ../libaudcore/objects.h ../libaudcore/runtime.h ../libaudtag/builtin.h \
+ ../libaudtag/tag_module.h ../libaudtag/audtag.h ../libaudcore/tuple.h \
+ ../libaudcore/vfs.h ../libaudcore/export.h ../libaudtag/util.h \
+ id3/id3-common.h
+id3v24.o id3v24.lib.o id3v24.plugin.o: id3/id3v24.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
+ /usr/include/glib-2.0/glib/gtypes.h \
+ /usr/lib/arm-linux-gnueabihf/glib-2.0/include/glibconfig.h \
+ /usr/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/float.h \
+ /usr/include/glib-2.0/glib/gversionmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/glib-2.0/glib/garray.h \
+ /usr/include/glib-2.0/glib/gasyncqueue.h \
+ /usr/include/glib-2.0/glib/gthread.h \
+ /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h \
+ /usr/include/glib-2.0/glib/gbase64.h \
+ /usr/include/glib-2.0/glib/gbitlock.h \
+ /usr/include/glib-2.0/glib/gbookmarkfile.h \
+ /usr/include/glib-2.0/glib/gbytes.h \
+ /usr/include/glib-2.0/glib/gcharset.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/gconvert.h \
+ /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h \
+ /usr/include/glib-2.0/glib/gdatetime.h \
+ /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h \
+ /usr/include/dirent.h /usr/include/arm-linux-gnueabihf/bits/dirent.h \
+ /usr/include/glib-2.0/glib/genviron.h \
+ /usr/include/glib-2.0/glib/gfileutils.h \
+ /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
+ /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h \
+ /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/ghook.h \
+ /usr/include/glib-2.0/glib/ghostutils.h \
+ /usr/include/glib-2.0/glib/giochannel.h \
+ /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
+ /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
+ /usr/include/glib-2.0/glib/gunicode.h \
+ /usr/include/glib-2.0/glib/gkeyfile.h \
+ /usr/include/glib-2.0/glib/gmappedfile.h \
+ /usr/include/glib-2.0/glib/gmarkup.h \
+ /usr/include/glib-2.0/glib/gmessages.h \
+ /usr/include/glib-2.0/glib/gvariant.h \
+ /usr/include/glib-2.0/glib/gvarianttype.h \
+ /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gpattern.h \
+ /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
+ /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
+ /usr/include/glib-2.0/glib/gregex.h \
+ /usr/include/glib-2.0/glib/gscanner.h \
+ /usr/include/glib-2.0/glib/gsequence.h \
+ /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
+ /usr/include/glib-2.0/glib/gspawn.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
+ /usr/include/glib-2.0/glib/gstringchunk.h \
+ /usr/include/glib-2.0/glib/gtestutils.h \
+ /usr/include/glib-2.0/glib/gthreadpool.h \
+ /usr/include/glib-2.0/glib/gtimer.h \
+ /usr/include/glib-2.0/glib/gtrashstack.h \
+ /usr/include/glib-2.0/glib/gtree.h \
+ /usr/include/glib-2.0/glib/gurifuncs.h \
+ /usr/include/glib-2.0/glib/gversion.h \
+ /usr/include/glib-2.0/glib/deprecated/gallocator.h \
+ /usr/include/glib-2.0/glib/deprecated/gcache.h \
+ /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
+ /usr/include/glib-2.0/glib/deprecated/gmain.h \
+ /usr/include/glib-2.0/glib/deprecated/grel.h \
+ /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
+ /usr/include/glib-2.0/glib/glib-autocleanups.h ../libaudcore/audio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/audstrings.h /usr/include/c++/6/initializer_list \
+ ../libaudcore/index.h ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ ../libaudcore/objects.h ../libaudcore/multihash.h \
+ ../libaudcore/tinylock.h ../libaudcore/runtime.h ../libaudtag/builtin.h \
+ ../libaudtag/tag_module.h ../libaudtag/audtag.h ../libaudcore/tuple.h \
+ ../libaudcore/vfs.h ../libaudcore/export.h ../libaudtag/util.h \
+ id3/id3-common.h
+ape.o ape.lib.o ape.plugin.o: ape/ape.cc /usr/include/stdc-predef.h ../../config.h \
+ /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h ../libaudcore/audio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../libaudcore/audstrings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/c++/6/initializer_list ../libaudcore/index.h \
+ ../libaudcore/templates.h /usr/include/c++/6/new \
+ /usr/include/c++/6/exception \
+ /usr/include/c++/6/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/6/bits/exception_ptr.h \
+ /usr/include/c++/6/bits/exception_defines.h \
+ /usr/include/c++/6/bits/nested_exception.h \
+ /usr/include/c++/6/bits/move.h /usr/include/c++/6/bits/concept_check.h \
+ /usr/include/c++/6/type_traits /usr/include/c++/6/utility \
+ /usr/include/c++/6/bits/stl_relops.h /usr/include/c++/6/bits/stl_pair.h \
+ ../libaudcore/objects.h ../libaudcore/runtime.h ../libaudcore/vfs.h \
+ ../libaudcore/export.h ../libaudtag/builtin.h ../libaudtag/tag_module.h \
+ ../libaudtag/audtag.h ../libaudcore/tuple.h
